@@ -9,6 +9,8 @@
 #    http://bender.astro.sunysb.edu/blaire/
 #
 # Written by Blaire Ness and Michael Zingale
+#
+# Last updated 9/24/18
 
 from __future__ import print_function
 

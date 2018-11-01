@@ -64,16 +64,11 @@ with open(probin_file, "r") as prob_file:
 
 # values to be replaced in the template files.
 # the format is (low, reference, high)
-params = {"ROT_PERIOD": (0.001, 0.01, 0.1),
-          "X_PERT_LOC": (0.5, 1.0, 10.0),
-          "NU": (0.5, 1, 2),
+params = {"NU": (0.5, 1, 2),
           "Q_BURN": (1.24e9, 1.24e9, 1.24e9),
           "COND": (5.e8, 5.e9, 5.e10),
-          "PERT_WIDTH": (0.0025, 0.025, 0.25),
           "T_BURN_REF": (0.1, 1.0, 10.0),
-          "PERT_FACTOR": (0.1, 1.0, 10.0),
-          "RTILDE": (4.0, 40.0, 20.0),
-          "T_BASE": (0.01, 1.0, 10.0)}
+          "RTILDE": (4.0, 40.0, 20.0)}
 
 # by definition, the "reference" run is the middle set of parameter
 reference = {}
